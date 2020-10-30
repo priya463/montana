@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>hotel montana</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="fixed-top ">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                
+                <li class="nav-item nav-item-light">
+              <a class="nav-link" href="/index.html">Montana</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/room.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/amenities.html">Amenities</a>
+              </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact Us</a>
+              </li>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </li>
+            
+              </button>
+            </nav>
+          </div>
+
+    </div>
+    <div class="main">
+      <h1>Explore Montana</h1>
+      <p style="text-align: center; align-items: center; justify-content: center;"><button class="btn btn-dark" data-toggle="modal" data-target="#checkModal">Check Availability</button></p>
+    
+     <div class="gallery">
+       <div class="img">
+         <img src="2.jpg" alt="" class="src">
+       </div>
+       <div class="img">
+        <img src="14.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="13.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="12.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="21.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="19.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="9.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="8.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="5.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="4.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="6.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="7.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="57.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="1.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="30.jpg" alt="" class="src">
+      </div>
+      <div class="img">
+        <img src="78.jpg" alt="" class="src">
+      </div>
+
+     </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <footer style="background-color: rgb(255, 253, 253);" ><div class="container">
+      <p class="float-right"><a href="#">back to top</a></p>
+      <p>© 2020-2021 montana, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </div>
+    </footer>
+
+
+
+     <!-- checkModal -->
+<div class="modal fade" id="checkModal" tabindex="-1" role="dialog" aria-labelledby="checkModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="checkModalLabel">Reserve Your Stay</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom01">Name</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputdate">Check-In Date</label>
+                <input type="date" class="form-control" min="2020-07-07" max="2021-08-30" id="exampleInputcheckindate" required  aria-describedby="dateHelp">
+                
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="exampleInputdate">Check-Out Date</label>
+                <input type="date" class="form-control" min="2020-07-07" max="2021-08-30" id="exampleInputcheckoutdate" required  aria-describedby="dateHelp">
+                
+              </div>
+              
+            
+              <div class="form-group1">
+                <label for="exampleInputnumber">No. of Adults</label>
+                <input type="number" class="form-control" min="0" max="4" id="exampleInputnumber"  required  aria-describedby="numberHelp">
+                
+              </div>
+              <div class="form-group1">
+                <label for="exampleInputnumber">No. of Children</label>
+                <input type="number" class="form-control" min="0" max="4" id="exampleInputnumber"  required   aria-describedby="numberHelp">
+                
+              </div>
+              
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary bg-dark" type="submit">search</button>
+          </form>
+  
+          </div>
+           <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+</body>
+</html>
